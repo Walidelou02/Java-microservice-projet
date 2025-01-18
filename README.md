@@ -25,8 +25,7 @@ cela est fait grâce à l'actuator
 -Les microservices  api-gateway, eureka-server, microservice-commande-etudeCas2, microservice-produits-etudeCas2 communique tous entre eux
 de facon a ce que le eureka server permet de superviser tous ces microservice (api-gateway, microservice-commande-etudeCas2, microservice-produits-etudeCas2)
 il permet de voir le port de configuration de chaque service ansi que son status.
-l'api gateway permet de jouer le rôle d'une interface qui permet d'utiliser les deux microservices avec le meme port de l api gateway ce qui facilite 
-la gestion et l'utilisation des microservices
+l'api gateway permet de jouer le rôle d'une interface qui permet d'utiliser les deux microservices avec le meme port de l api gateway ce qui facilite la gestion et l'utilisation des microservices
 
 ---
 
@@ -40,13 +39,22 @@ la gestion et l'utilisation des microservices
 ---
 
 ## Fonctionnalités
+-Pour tester la communication entre microservice-commande et ConfigServer il faut etre connecte à internet puis lancé premierement le ConfigServer puis microservice-commande
 
+-Pour tester la communication entre les autres microservices il faut :
+1) Lancer le eureka-server
+2) Lancer api-gateway
+3) microservice-commande-etudeCas2
+4) microservice-produits-etudeCas2
 
 ### ConfigServer et microservice-commande
-Voici une capture d'écran de la page d'accueil :
+Voici des captures d'écran illustrant cette communication :
+
+![Configuration prise du depôt de github]([https://via.placeholder.com/800x400.png?text=Page+d%27accueil](https://github.com/Walidelou02/Java-microservice-projet/blob/master/images/githubParameter.png))
 
 ![Page d'accueil](https://via.placeholder.com/800x400.png?text=Page+d%27accueil)
 
+![Page d'accueil](https://via.placeholder.com/800x400.png?text=Page+d%27accueil)
 ### Exemple 2 : Formulaire d'Inscription
 Un aperçu du formulaire d'inscription utilisateur :
 
