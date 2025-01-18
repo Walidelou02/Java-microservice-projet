@@ -50,15 +50,21 @@ l'api gateway permet de jouer le rôle d'une interface qui permet d'utiliser les
 ### ConfigServer et microservice-commande
 Voici des captures d'écran illustrant cette communication :
 
-![Configuration prise du depôt de github]([https://via.placeholder.com/800x400.png?text=Page+d%27accueil](https://github.com/Walidelou02/Java-microservice-projet/blob/master/images/githubParameter.png))
+![Configuration prise du depôt de github](images/githubParameter.png)
 
-![Page d'accueil](https://via.placeholder.com/800x400.png?text=Page+d%27accueil)
+Ici on voit le parametre à récupérer par le ConfigServer dans github.
 
-![Page d'accueil](https://via.placeholder.com/800x400.png?text=Page+d%27accueil)
-### Exemple 2 : Formulaire d'Inscription
-Un aperçu du formulaire d'inscription utilisateur :
+![Controlleur de microservice-commande](images/ControllerGithubParameterAndFunctionUsingIt.png)
 
-![Formulaire d'inscription](https://via.placeholder.com/800x400.png?text=Formulaire+d%27inscription)
+Ici on remarque que la configuration faite dans le github est injecte dans l attribut puis dans l'action qui du controlleur qui permet de consulter les dernier commandes selon un nombre de jours passé en paramétre
+
+![Résultat de l'action getRecentCommandes de microservice-commande](images/ResultOfUseCase1.png)
+
+Ici on remarque que la communication avec ConfigServer et Github et notre microservice a bien passé et on a recu les objets qui aboutissent à la logique du code
+
+### Eureka et api-gateway et Produit et Commandes
+
+
 
 
 
