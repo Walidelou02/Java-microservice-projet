@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 # Java-microservice-projet
-=======
 # Projet microservice java
 
 Ce projet est un exemple simple démontrant comment on peut faire une architecture microservice qui permet de communiquer un ensemble de microservice entre eux.
@@ -90,6 +88,7 @@ Ici on remarque que la communication avec ConfigServer et Github et notre micros
 le microservice produit est defini comme ceci :
 ![Résultat de l'action getRecentCommandes de microservice-commande](images/explication.png)
 
+
 6) finalement on obtient un resultat comme cela :
    ![Résultat de l'action getRecentCommandes de microservice-commande](images/result.png)
->>>>>>> reserveBranch
+
